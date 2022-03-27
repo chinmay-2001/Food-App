@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".customize"
+    android:background="#B5F8A6">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Customize"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#E4AA15"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="382dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:fontFamily="@font/pacifico"
+        android:paddingLeft="75dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <CheckBox
+        android:id="@+id/coke"
+        android:layout_width="147dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="368dp"
+        android:background="#E9FD90"
+        android:text="Coke"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="30sp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="@color/purple_200"/>
+
+    <CheckBox
+        android:id="@+id/fires"
+        android:layout_width="147dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="272dp"
+        android:background="#E9FD90"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Fries"
+        android:textColor="@color/purple_200"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="292dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:text="Add to Cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fires"
+        android:textSize="20sp"
+        android:backgroundTint="#73E62C"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
